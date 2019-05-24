@@ -6,7 +6,7 @@ https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/int
 
 # How to run a the sample
 - `sudo gem install dotenv`
-- `cp sample-env .env`
+- `cd examples && cp sample-env .env`
 - fill out the params in .env file
 - modify `post_text_with_mention` for `subject_id`, `text`, `mention_to` to use your objects
 - run `dotenv ./sample.py`

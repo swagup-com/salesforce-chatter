@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 
-from chatter import Chatter, ChatterAuth
+from ..chatter import Chatter, ChatterAuth
 
 USERNAME = os.getenv('USERNAME')
 PASSWORD = os.getenv('PASSWORD')
