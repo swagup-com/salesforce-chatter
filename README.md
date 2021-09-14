@@ -4,7 +4,7 @@ Python Library for Salesforce Chatter
 # Chatter API
 https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/intro_what_is_chatter_connect.htm
 
-# How to run a the sample
+# How to run a sample
 - `sudo gem install dotenv`
 - `cd examples && cp sample-env .env`
 - fill out the params in .env file
